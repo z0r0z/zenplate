@@ -1,0 +1,10 @@
+[profile.default]
+solc = "0.8.19"
+optimizer_runs = 9_999_999
+
+remappings = [
+  "@forge=lib/forge-std/src/"
+]
+
+[rpc_endpoints]
+mainnet = "https://rpc.ankr.com/eth"
