@@ -7,9 +7,9 @@ import "@forge/Test.sol";
 contract TesterTest is Test {
     Tester immutable tester = new Tester();
 
-    function setUp() public {}
+    function setUp() public payable {}
 
-    function testTest() public {
+    function testTest() public payable {
         tester.test("ommm");
     }
 }
