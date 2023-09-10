@@ -1,4 +1,4 @@
-# zenplate [![tests](https://github.com/z0r0z/zenplate/actions/workflows/ci.yml/badge.svg?label=tests)](https://github.com/z0r0z/zenplate/actions/workflows/ci.yml) [![Foundry][foundry-badge]][foundry] [![License: AGPL-3.0-only][license-badge]][license] ![solidity](https://img.shields.io/badge/solidity-%5E0.8.19-black)
+# zenplate [![tests](https://github.com/z0r0z/zenplate/actions/workflows/ci.yml/badge.svg?label=tests)](https://github.com/z0r0z/zenplate/actions/workflows/ci.yml) [![License: AGPL-3.0-only][license-badge]][license] ![solidity](https://img.shields.io/badge/solidity-%5E0.8.19-black) [![Foundry][foundry-badge]][foundry]
 
 [foundry]: https://getfoundry.sh/
 [foundry-badge]: https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg
