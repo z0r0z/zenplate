@@ -7,7 +7,7 @@ import "@forge/Test.sol";
 contract TesterTest is Test {
     Tester immutable tester = new Tester();
 
-    function setup() public {}
+    function setUp() public {}
 
     function testTest() public {
         tester.test("ommm");
