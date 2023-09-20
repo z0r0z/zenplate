@@ -1,5 +1,6 @@
 [profile.default]
 solc = "0.8.19"
+optimizer = true
 optimizer_runs = 9_999_999
 
 remappings = [
