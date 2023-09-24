@@ -1,6 +1,5 @@
 [profile.default]
-via_ir = true
-solc_version = "0.8.21"
+solc_version = "0.8.19"
 
 optimizer = true
 optimizer_runs = 9_999_999
