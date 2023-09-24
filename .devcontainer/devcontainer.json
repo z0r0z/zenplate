@@ -1,4 +1,14 @@
 {
     "name": "My Codespace",
-    "postCreateCommand": "curl -L https://foundry.paradigm.xyz | bash &&  source ~/.bashrc && foundryup"
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+	"postStartCommand": "curl -L https://foundry.paradigm.xyz | bash &&  source ~/.bashrc && foundryup",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"JuanBlanco.solidity",
+                "tamasfe.even-better-toml",
+				"GitHub.vscode-github-actions"
+			]
+		}
+	},
 }
