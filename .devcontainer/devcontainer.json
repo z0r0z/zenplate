@@ -1,5 +1,5 @@
 {
-    "name": "My Codespace",
+    "name": "Zenplate",
     "image": "mcr.microsoft.com/devcontainers/rust:latest",
     "postStartCommand": "curl -L https://foundry.paradigm.xyz | bash && source ~/.bashrc && foundryup",
     "customizations": {
