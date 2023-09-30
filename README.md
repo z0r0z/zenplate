@@ -6,6 +6,8 @@ Simpler foundry template.
 
 Click [`use this template`](https://github.com/z0r0z/zenplate/generate) to start.
 
+Run: `curl -L https://foundry.paradigm.xyz | bash && source ~/.bashrc && foundryup`
+
 Build the foundry project with `forge build`. Run tests with `forge test`. Measure gas with `forge snapshot`. Format with `forge fmt`.
 
 ## GitHub Actions
