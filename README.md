@@ -31,8 +31,8 @@ test
 
 ## Notable Mentions
 
-- [foundry-template](https://github.dev/PaulRBerg/foundry-template)
 - [femplate](https://github.com/refcell/femplate)
+- [prb-foundry-template](https://github.dev/PaulRBerg/foundry-template)
 
 ## Disclaimer
 

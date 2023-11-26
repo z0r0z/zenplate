@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity ^0.8.19;
 
-import "../src/Tester.sol";
-import "@forge/Test.sol";
+import {Tester} from "../src/Tester.sol";
+import {Test} from "../lib/forge-std/src/Test.sol";
 
 contract TesterTest is Test {
     Tester immutable tester = new Tester();
