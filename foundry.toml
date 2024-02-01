@@ -1,14 +1,15 @@
 [profile.default]
-solc_version = "0.8.19"
+solc_version = "0.8.24"
+evm_version = "shanghai"
 
 optimizer = true
 optimizer_runs = 9_999_999
 
-[fmt]
-line_length = 100
-
 [profile.via-ir]
 via_ir = true
+
+[fmt]
+line_length = 100
 
 [rpc_endpoints]
 main = "https://rpc.ankr.com/eth"
