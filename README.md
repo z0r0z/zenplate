@@ -21,8 +21,6 @@ You can edit the CI script in [.github/workflows/ci.yml](./.github/workflows/ci.
 ```txt
 lib
 ├─ forge-std — https://github.com/foundry-rs/forge-std
-scripts
-├─ Deploy.s.sol — Test Deployment
 src
 ├─ Tester — Tester Contract
 test

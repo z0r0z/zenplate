@@ -7,8 +7,6 @@ contract Tester {
     string public data;
 
     function test(string calldata _data) public payable {
-        data = _data;
-
-        emit Tested(_data);
+        emit Tested(data = _data);
     }
 }
