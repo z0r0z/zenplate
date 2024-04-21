@@ -5,6 +5,11 @@ evm_version = "cancun"
 optimizer = true
 optimizer_runs = 9_999_999
 
+remappings = [
+  "@solady=lib/solady/",
+  "@forge=lib/forge-std/src/"
+]
+
 [profile.via-ir]
 via_ir = true
 
