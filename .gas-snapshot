@@ -1,2 +1,2 @@
 Tester:test(string) (runs: 256, μ: 47817, ~: 24820)
-TesterTest:testTest() (gas: 27868)
+TesterTest:testTest() (gas: 29970)
